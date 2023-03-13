@@ -13,8 +13,10 @@ le stock de la pharmacie (ajout, suppression et modification de produits) ce qui
 
 ## Gestion des alertes :
 l'application comprend également une fonctionnalité de notification lorsque la date de péremption des produits est proche, ainsi qu'une gestion automatique de réduction sur les produits cosmétiques.
-# 3. Réalisation 
+# 3. La gestion du projet:
 
+
+4. Réalisation :
 ## 	Vue :
 Classe Interface :
  représente l'interface graphique de l'application, contenant les deux boutons pour la gestion des clients et la gestion de la pharmacie. Cette classe aura des méthodes pour afficher la page correspondante lorsque l'utilisateur clique sur l'un des boutons.
