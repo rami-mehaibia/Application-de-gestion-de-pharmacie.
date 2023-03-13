@@ -30,12 +30,17 @@ Classe Interface :
  ## A) Modèle:
 ###	Classe Produit : 
   représente un produit de la pharmacie, contenant les attributs tels que le nom, la quantité, le prix, la date de péremption, le fournisseur, etc. Cette classe aura des méthodes pour ajouter, supprimer et modifier un produit, ainsi qu'une méthode pour vérifier si la date de péremption est proche ou atteinte.
-###	Classe Client : représente un client de la pharmacie, contenant les attributs tels que le nom, l'adresse, le numéro de téléphone, la date de naissance, numéro de sécurité sociale , etc. Cette classe aura des méthodes pour ajouter, supprimer et modifier un client (les mises à jour).
-###	Classe Stock : représente le stock de la pharmacie, contenant une liste de produits. Cette classe aura des méthodes pour ajouter, supprimer et modifier un produit dans le stock, ainsi que pour vérifier si la date de péremption est proche.
-###	Classe Notification : représente la notification qui sera envoyée lorsque la date de péremption est proche. Cette classe aura des méthodes pour envoyer la notification.
-•	Renouveler le stock : Ce qui permet de renouveler les stocks avant sa fin.
+###	Classe Client :
+  représente un client de la pharmacie, contenant les attributs tels que le nom, l'adresse, le numéro de téléphone, la date de naissance, numéro de sécurité sociale , etc. Cette classe aura des méthodes pour ajouter, supprimer et modifier un client (les mises à jour).
+###	Classe Stock :
+  représente le stock de la pharmacie, contenant une liste de produits. Cette classe aura des méthodes pour ajouter, supprimer et modifier un produit dans le stock, ainsi que pour vérifier si la date de péremption est proche.
+###	Classe Notification :
+  représente la notification qui sera envoyée lorsque la date de péremption est proche. Cette classe aura des méthodes pour envoyer la notification.
+•	Renouveler le stock :
+  Ce qui permet de renouveler les stocks avant sa fin.
 ## B) Contrôleur:
-###	Classe Contrôleur : représente le contrôleur de l'application, qui coordonne l'interaction entre la vue et le modèle. Cette classe aura des méthodes pour gérer les actions de l'utilisateur (cliquer sur un bouton, ajouter un produit, supprimer un client, etc.) et mettre à jour la vue en conséquence.
+###	Classe Contrôleur :
+ représente le contrôleur de l'application, qui coordonne l'interaction entre la vue et le modèle. Cette classe aura des méthodes pour gérer les actions de l'utilisateur (cliquer sur un bouton, ajouter un produit, supprimer un client, etc.) et mettre à jour la vue en conséquence.
 # 4. Conclusion 
  Le modèle MVC est utilisé pour organiser le code de l'application de manière claire et efficace. Les classes du modèle représentent les données de l'application, la vue représente l'interface graphique et le contrôleur gère la logique métier et l'interaction entre la vue et le modèle.
 
